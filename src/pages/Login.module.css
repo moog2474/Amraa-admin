@@ -1,0 +1,78 @@
+.loginFooter {
+    color: #999;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    /*margin-top: 40%;*/
+}
+
+.footerContainer {
+    position: relative;
+    width: 100%;
+    margin-top: 3.5rem;
+}
+
+.floatingDiv {
+    position: absolute;
+    top: 3%;
+    right: 2%;
+}
+
+.floatingDiv2 {
+    position: absolute;
+    top:6%;
+    right: 2%;
+}
+
+.galleryStyle {
+    width: 100%;
+    height: 100%;
+}
+
+.landingGallery {
+    height: 100%;
+}
+
+.login-container .dx-gallery-container{
+    height: auto !important;
+    width: 100%;
+}
+.login-container .dx-gallery-item-image{
+    object-fit: cover !important;
+    height: 100%;
+    width: auto !important;
+    min-width: 100%;
+}
+.login-container .dx-gallery-wrapper{
+    height: auto !important;
+}
+@media only screen and (min-width: 1300px) {
+    .landingHero {
+        display: none;
+    }
+
+    .landingGallery {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .landingGallery {
+        display: none;
+    }
+
+    .landingHero {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .landingHero {
+        display: none;
+    }
+
+    .landingGallery {
+        display: none;
+    }
+}

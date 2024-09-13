@@ -1,0 +1,36 @@
+
+.sidebar {
+    height: 93.6vh;
+    overflow: auto!important;
+    justify-content: center;
+    position: fixed;
+    z-index: 10;
+    background-color: #fff;
+    transition: ease all .2s;
+    display: flex;
+    margin-top: 65px;
+}
+.sidebarWrap {
+    width: 100%;
+    height: 100%;
+    /* text-align: center; */
+    /*margin-top: 10px;*/
+}
+.sidebar .ant-menu .ant-menu-item-selected {
+    font-weight: bold !important;
+}
+.sidebarTopLogo {
+    width: 120px;
+    margin-top: 1rem;
+    /*margin: 3rem 0 3rem 1.5rem;*/
+}
+
+.show {
+    visibility: visible;
+    width: 300px;
+}
+
+.hide {
+    visibility: hidden;
+    width: 0;
+}

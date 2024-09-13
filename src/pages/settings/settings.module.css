@@ -1,0 +1,48 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(245px , 1fr));
+}
+
+.wrapper > div:last-child {
+    grid-column: 2 / span 4;
+}
+
+.row {
+    padding-top: 50px!important;
+}
+
+.actionType {
+    justify-content: center;
+    padding: 0 170px 0 170px;
+}
+
+.actionType p {
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.green {
+    background-color: #2dd725;
+}
+
+.red {
+    background-color: #fa4848;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 20px -40px 20px 0;
+}
+
+.search .searchText {
+    font-weight: bold;
+    border: 1px solid var(--base-grey-color);
+}
+
+@media only screen and (max-width: 1268px) {
+    .wrapper > div:last-child {
+        grid-column: 1;
+    }
+}

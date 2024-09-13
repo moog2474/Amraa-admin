@@ -1,0 +1,15 @@
+{
+  "short_name": "ZEH",
+  "name": "ZEH",
+    "icons": [
+      {
+        "src": "favico.png",
+        "sizes": "64x64",
+        "type": "image/png"
+      }
+    ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1453b5",
+  "background_color": "#ffffff"
+}

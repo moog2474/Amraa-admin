@@ -1,0 +1,288 @@
+.dx-list-item-content a {
+    text-decoration: none;
+    color: #1453B5;
+    /*color: green;*/
+}
+
+
+.dx-list-item-icon::before {
+    color: #95c6ef;
+}
+
+.dx-theme-accent-as-background-color {
+    /*background-color: #1d6dc7 !important;*/
+}
+
+.sideIcon-bnt-style:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.navbarItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #f2f2f2;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: #f2f2f2 1px 1px 5px;
+}
+
+.navbarItem button {
+    background-color: transparent;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-left: 1px solid #f2f2f2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbarItem img {
+    cursor: pointer;
+    width: 18px;
+    color: #f2f2f2 !important;
+}
+
+.og-link-selected-custom-style {
+    background: #000!important;
+}
+
+.nav-bar {
+    background-color: #1453b5;
+    /*transition: all 0.38s;*/
+    transition: all 0.5s ease-in-out;
+    height: auto;
+}
+
+.nav-bar .dx-list-item-content {
+    padding: 0;
+}
+
+
+.og .dx-list-group-header {
+    letter-spacing: 0.8px;
+}
+.og .dx-list-group-header .og-menu-title {
+    display: inline-block;
+    position:absolute;
+    visibility:hidden;
+    opacity:0;
+    width:0;
+}
+
+.subArrowIcons {
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 159px;
+    margin-top: -27px;
+}
+
+.dx-toolbar-items-container {
+    z-index: 1;
+    /*margin-left: 45px;*/
+    position: relative;
+}
+
+.subArrowIcons:hover {
+    background: #b2b2b257;
+    font-size: 1.8rem;
+    margin-top: -30px;
+    margin-left: 157px;
+}
+
+.gixvLm {
+    width: 2rem;
+}
+
+.og .dx-list-group-header .og-menu-title.show {
+    visibility: visible;
+    width: 200px;
+    opacity: 1;
+}
+.sidebar-og-menu-show {
+    visibility: visible;
+    width: 250px;
+    opacity: 1;
+    background-color: green;
+}
+
+.dropdown-menu-container {
+    /*transition: 2s;*/
+    height: 0;
+    /*display: none;*/
+    visibility: hidden;
+    /*transition: visibility 2s, opacity 0.5s linear;*/
+    opacity: 0;
+}
+
+.og-shadow {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3)  0px 18px 36px -18px;
+    display: block;
+}
+
+
+
+
+.og-mouse-on {
+    width: 280px;
+}
+
+/*.dropdown-menu-visible {*/
+/*    visibility: visible;*/
+/*    transition: visibility 2s, opacity 0.5s linear;*/
+/*    display: block;*/
+/*    opacity: 1;*/
+/*}*/
+
+.og .dx-list-group:first-of-type .dx-list-group-header{
+    max-height: 40px;
+    transition: ease all 2s ;
+}
+.og .dx-list-group-header .og-menu-title.hide {
+    visibility:hidden;
+    transition: all 0.4s ease-in-out;
+    opacity:0;
+    width:0;
+}
+.customMenuItem {
+    padding: 10px;
+}
+
+.notificationButton:hover {
+    background-color: #F1E9E5;
+}
+
+/*.notificationButton:focus {*/
+/*    background-color: #E7E0C9;*/
+/*}*/
+
+.notificationButton {
+    color: #1452b4;
+    border: 0;
+    background-color: white;
+    border-radius: 50%;
+    transition: all 0.3s;
+    cursor: pointer;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    position: relative;
+}
+
+.notificationCount {
+    color: white;
+    font-size: 11px;
+    background: red;
+    border-radius: 50%;
+    font-weight: bold;
+    padding: 2px 6px;
+    border: 1px solid #fff;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.chat-notification::after {
+    content: '';
+    position: absolute;
+    height: 0.8rem;
+    width: 0.8rem;
+    top: 0.1rem;
+    right: 0.2rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.panel-list {
+    height: 55rem;
+    background-color: #ffffff;
+    overflow-y: scroll;
+    scroll-behavior: auto;
+    box-shadow: -5px 2px 8px #00000059;
+    margin: 0 0 1rem 1rem
+}
+
+.list {
+    width: 540px;
+}
+
+.iconColor {
+    color: black;
+}
+
+.dropDownIcon {
+    color: black;
+}
+
+.iconStatus {
+    color: #66DE93;
+}
+
+.notificationBox {
+    height: auto;
+    width: 400px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 2.6rem;
+    right: 1rem;
+    z-index: 25;
+    box-shadow: -10px 10px 19px -12px rgba(41,45,59,0.97);
+    border-radius: 4px;
+    color:white;
+}
+/*5089C6*/
+/*548CA8*/
+/*125D98*/
+/*1768AC*/
+.notificationBoxHeader {
+    background-color: #1768AC;
+    height: 2.6rem;
+    border-radius: 4px 4px 0 0;
+    display: flex;
+}
+
+.notificationContent {
+    height: 4.5rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    /*transition: all 0.4s;*/
+    color: black
+}
+
+.notificationImage {
+    text-align: center;
+    position: relative;
+}
+
+.notificationText {
+    margin: auto 0.4rem auto 1rem;
+}
+
+.notificationContent1 {
+    /*transition: all 0.2s;*/
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.notificationContent1:hover {
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}
+
+.notificationContent:focus {
+    background-color: red;
+}
+
+
+
+
